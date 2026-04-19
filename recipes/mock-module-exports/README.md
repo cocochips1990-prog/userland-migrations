@@ -7,13 +7,7 @@ This migration trasforming use of deprecated `options.defaultExport` and `option
 
 ```diff
 mock.module('…', {
--   defaultExport: …,
--   namedExports: {
--   	foo: …
--   },
-+   exports: {
-+   	default: …,
-+   	foo: …,
-+   },
-});
-```
+-`options.defaultExport` and `options.namedExports` on
+`node:test.mock`
+`options.defaultExport` and `options.namedExports` on
+`node:test.mock`
